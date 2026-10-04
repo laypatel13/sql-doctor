@@ -1,0 +1,54 @@
+# SQL Doctor theme, using the "Quiet Canvas" palette from Netra:
+# neutral greys for everything, blue only for things you can click,
+# red and green only for status (what broke, what fixed it).
+# Borders are >= 3:1 against the page so inputs stay visible (WCAG 1.4.11).
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+font = "Poppins:https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap, sans-serif"
+headingFont = "Literata:https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&display=swap, serif"
+codeFont = "Poppins:https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap, sans-serif"
+codeFontSize = "0.875rem"
+baseFontSize = 15
+headingFontWeights = 600
+baseRadius = "10px"
+buttonRadius = "12px"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#1667D6"
+backgroundColor = "#F7F7F8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1C1C1F"
+borderColor = "#8E8E95"
+linkColor = "#1667D6"
+codeBackgroundColor = "#EFEFF1"
+redColor = "#C5221D"
+greenColor = "#167C33"
+yellowColor = "#FFCC00"
+blueColor = "#1667D6"
+grayColor = "#66666B"
+
+[theme.light.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F7F8"
+
+[theme.dark]
+primaryColor = "#2F72DE"
+backgroundColor = "#131316"
+secondaryBackgroundColor = "#1E1E23"
+textColor = "#EDEDEF"
+borderColor = "#66666E"
+linkColor = "#6EA8FF"
+codeBackgroundColor = "#212126"
+redColor = "#FF6B5B"
+greenColor = "#4ADE80"
+yellowColor = "#FFDE59"
+blueColor = "#6EA8FF"
+grayColor = "#8E8E96"
+
+[theme.dark.sidebar]
+backgroundColor = "#1E1E23"
+secondaryBackgroundColor = "#131316"

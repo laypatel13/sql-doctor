@@ -1,4 +1,4 @@
-# 🩺 SQL Doctor
+# SQL Doctor
 
 Paste a PostgreSQL query that failed and the error it gave you. SQL Doctor explains what went wrong in plain words, points to the exact part of the query that broke, and shows the fixed query. It can explain in English, Hinglish or Gujarati.
 
